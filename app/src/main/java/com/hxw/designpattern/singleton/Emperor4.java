@@ -4,6 +4,7 @@ package com.hxw.designpattern.singleton;
  * 静态内部类实现
  * 优点：
  * 不仅能保证线程安全，也能保证单例的唯一性，也延迟了单例的实例化，比较推荐
+ * 缺点：依赖特定编程语言, 适用于JAVA平台
  *
  * @author hxw on 2018/7/9.
  */
