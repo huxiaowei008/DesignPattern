@@ -2,6 +2,10 @@ package com.hxw.designpattern.singleton;
 
 /**
  * 单例模式
+ * 保证一个类(HungryForm)仅有一个实例(sInstance), 并提供一个访问该实例的全局访问点(getInstance).
+ * 这就意味着单例通常有如下两个特点:
+ * 1、构造函数是私有的(避免别的地方创建它)
+ * 2、有一个static的方法来对外提供一个该单例的实例.
  * 优点:
  * <p>
  * 由于单例模式在内存中只有一个实例，减少了内存开支，特别是一个对象需要频繁创建，或者创建或销毁时性能无法优化，单例模式的优势就很明显了。
@@ -16,7 +20,7 @@ package com.hxw.designpattern.singleton;
  * @author hxw on 2018/7/9.
  */
 public class Signleton {
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
     }
 }
