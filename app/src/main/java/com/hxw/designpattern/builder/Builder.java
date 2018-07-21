@@ -16,5 +16,24 @@ public class Builder {
                 .setWeight(50)
                 .build();
         System.out.print(hummer.toString());
+
+
+        Computer low = new LowConfigBuilder()
+                .setCPU()
+                .setHardDisk()
+                .setKeyboard()
+                .setMemory()
+                .setMouse()
+                .createComputer();
+        System.out.print("低配->" + low.toString());
+
+        Computer high=new HighConfigBuider()
+                .setCPU()
+                .setHardDisk()
+                .setKeyboard()
+                .setMemory()
+                .setMouse()
+                .createComputer();
+        System.out.print("高配->" + high.toString());
     }
 }

@@ -1,6 +1,7 @@
 package com.hxw.designpattern.builder;
 
 /**
+ * 常用的变种builder模式
  * 制造人类
  *
  * @author hxw on 2018/7/20.
