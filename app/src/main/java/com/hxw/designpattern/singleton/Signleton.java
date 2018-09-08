@@ -2,7 +2,7 @@ package com.hxw.designpattern.singleton;
 
 /**
  * 单例模式
- * 保证一个类(HungryForm)仅有一个实例(sInstance), 并提供一个访问该实例的全局访问点(getInstance).
+ * 确保某一个类只有一个实例,而且自行实例化并向整个系统提供这个实例
  * 这就意味着单例通常有如下两个特点:
  * 1、构造函数是私有的(避免别的地方创建它)
  * 2、有一个static的方法来对外提供一个该单例的实例.

@@ -1,7 +1,7 @@
 package com.hxw.designpattern.builder;
 
 /**
- * builder模式:
+ * 建造者模式:
  * 将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。
  * 一般来说, Builder常常作为实际产品的静态内部类来实现(提高内聚性).
  *
@@ -27,7 +27,7 @@ public class Builder {
                 .createComputer();
         System.out.print("低配->" + low.toString());
 
-        Computer high=new HighConfigBuider()
+        Computer high = new HighConfigBuider()
                 .setCPU()
                 .setHardDisk()
                 .setKeyboard()
