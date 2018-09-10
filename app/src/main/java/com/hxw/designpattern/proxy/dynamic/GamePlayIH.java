@@ -21,6 +21,10 @@ public class GamePlayIH implements InvocationHandler {
     /**
      * 调用被代理的方法
      * 它完成对真实方法的调用
+     *
+     * @param proxy  指被代理的对象
+     * @param method 要调用的方法
+     * @param args   方法调用时所需要的参数
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
