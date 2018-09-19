@@ -7,7 +7,7 @@ package com.hxw.designpattern.builder;
  *
  * @author hxw on 2018/7/20.
  */
-public class Builder {
+public class BuilderClient {
     public static void main(String args[]) {
         Hummer hummer = new Hummer.Builder()
                 .setSex("男")

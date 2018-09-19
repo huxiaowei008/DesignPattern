@@ -19,7 +19,7 @@ import java.util.Random;
  *
  * @author hxw on 2018/9/10.
  */
-public class Prototype {
+public class PrototypeClient {
     /**
      * 发送账单数量
      */
