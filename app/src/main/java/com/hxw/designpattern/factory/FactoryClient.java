@@ -31,13 +31,13 @@ import com.hxw.designpattern.factory.simplefactory.DrinkFactory;
 public class FactoryClient {
     public static void main(String args[]) {
         Drink drink = DrinkFactory.create(DrinkFactory.TYPE_J);
-        System.out.print(drink.printlnName() + "\n");
+        System.out.println(drink.printlnName());
 
         drink = DrinkFactory.create(Coke.class);
-        System.out.print(drink.printlnName() + "\n");
+        System.out.println(drink.printlnName());
 
         drink = DrinkFactory.createW();
-        System.out.print(drink.printlnName() + "\n");
+        System.out.println(drink.printlnName());
 
         Human human = new YellowFactory().createHuman();
         human.getColor();

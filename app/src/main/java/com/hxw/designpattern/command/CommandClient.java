@@ -10,7 +10,7 @@ package com.hxw.designpattern.command;
 public class CommandClient {
     public static void main(String args[]) {
 //        //首先客户找到需求组说,过来谈需求并修改
-//        System.out.print("------客户要求增加一项需求------\n");
+//        System.out.println("------客户要求增加一项需求------");
 //        Group rg=new RequirementGroup();
 //        //找到需求组
 //        rg.find();
@@ -21,12 +21,12 @@ public class CommandClient {
 
         //定义我们的负责人
         Invoker invoker = new Invoker();
-        System.out.print("------客户要求增加一项需求------\n");
+        System.out.println("------客户要求增加一项需求------");
         Command command = new AddRequirementCommand();
         invoker.setCommand(command);
         invoker.action();
 
-        System.out.print("------客户要求删除一个页面------\n");
+        System.out.println("------客户要求删除一个页面------");
         command = new DeletePageCommand();
         invoker.setCommand(command);
         invoker.action();

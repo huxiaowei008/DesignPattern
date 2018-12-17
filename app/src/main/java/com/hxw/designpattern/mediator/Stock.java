@@ -23,7 +23,7 @@ public class Stock extends AbstractColleague {
      */
     public void increase(int number) {
         computerNumber = computerNumber + number;
-        System.out.print("库存数量为:->" + computerNumber + "\n");
+        System.out.println("库存数量为:->" + computerNumber);
     }
 
     /**
@@ -33,7 +33,7 @@ public class Stock extends AbstractColleague {
      */
     public void decrease(int number) {
         computerNumber = computerNumber - number;
-        System.out.print("库存数量为:->" + computerNumber + "\n");
+        System.out.println("库存数量为:->" + computerNumber);
     }
 
     /**
@@ -49,7 +49,7 @@ public class Stock extends AbstractColleague {
      * 存货压力大了,就要通知采购人员不要采购,销售人员要尽快销售
      */
     public void clearStock() {
-        System.out.print("清理存货数量为:->" + computerNumber + "\n");
+        System.out.println("清理存货数量为:->" + computerNumber);
         mediator.execute("stock.clear");
     }
 }

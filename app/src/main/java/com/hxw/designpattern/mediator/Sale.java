@@ -20,7 +20,7 @@ public class Sale extends AbstractColleague {
      */
     public void sellIBMComputer(int number) {
         mediator.execute("sale.sell", number);
-        System.out.print("销售IBM电脑" + number + "台\n");
+        System.out.println("销售IBM电脑" + number + "台");
     }
 
     /**
@@ -32,7 +32,7 @@ public class Sale extends AbstractColleague {
         Random rand = new Random(System.currentTimeMillis());
 
         int saleStatus = rand.nextInt(100);
-        System.out.print("IBM电脑的销售情况为:" + saleStatus + "\n");
+        System.out.println("IBM电脑的销售情况为:" + saleStatus );
         return saleStatus;
     }
 

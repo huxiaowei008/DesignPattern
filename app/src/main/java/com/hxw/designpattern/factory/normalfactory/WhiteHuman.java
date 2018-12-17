@@ -8,6 +8,6 @@ package com.hxw.designpattern.factory.normalfactory;
 public class WhiteHuman implements Human {
     @Override
     public void getColor() {
-        System.out.print("白色人种\n");
+        System.out.println("白色人种");
     }
 }

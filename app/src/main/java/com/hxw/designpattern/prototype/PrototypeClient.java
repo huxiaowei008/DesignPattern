@@ -46,7 +46,7 @@ public class PrototypeClient {
      * 发送邮件
      */
     private static void sendMail(Mail mail) {
-        System.out.print("标题:" + mail.getSubject() + "\t收件人:" + mail.getReceiver() + "\t...发送成功");
+        System.out.println("标题:" + mail.getSubject() + "\t收件人:" + mail.getReceiver() + "\t...发送成功");
     }
 
     /**

@@ -24,6 +24,6 @@ public class Purchase extends AbstractColleague {
      * 不在采购IBM电脑
      */
     public void refuseBuyIBM() {
-        System.out.print("不再采购IBM电脑\n");
+        System.out.println("不再采购IBM电脑");
     }
 }

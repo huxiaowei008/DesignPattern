@@ -40,12 +40,12 @@ public class Mediator extends AbstractMediator {
         int saleStatus = sale.getSaleStatus();
         if (saleStatus > 80) {
             //销售情况良好
-            System.out.print("采购IBM电脑:" + number + "台\n");
+            System.out.println("采购IBM电脑:" + number + "台");
             stock.increase(number);
         } else {
             //销售情况不好,折半采购
             int buyNumber = number / 2;
-            System.out.print("采购IBM电脑:" + buyNumber + "台\n");
+            System.out.println("采购IBM电脑:" + buyNumber + "台");
         }
     }
 
@@ -67,7 +67,7 @@ public class Mediator extends AbstractMediator {
      */
     private void offSale() {
         //库房有多少卖多少
-        System.out.print("折价销售IBM电脑" + stock.getStockNumber() + "台\n");
+        System.out.println("折价销售IBM电脑" + stock.getStockNumber() + "台");
     }
 
     /**

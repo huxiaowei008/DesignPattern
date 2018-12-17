@@ -11,7 +11,7 @@ public class RequirementGroup extends Group {
      */
     @Override
     public void find() {
-        System.out.print("找到需求组\n");
+        System.out.println("找到需求组");
     }
 
     /**
@@ -19,7 +19,7 @@ public class RequirementGroup extends Group {
      */
     @Override
     public void add() {
-        System.out.print("客户要求增加一个需求\n");
+        System.out.println("客户要求增加一个需求");
     }
 
     /**
@@ -27,7 +27,7 @@ public class RequirementGroup extends Group {
      */
     @Override
     public void delete() {
-        System.out.print("客户要求删除一个需求\n");
+        System.out.println("客户要求删除一个需求");
     }
 
     /**
@@ -35,7 +35,7 @@ public class RequirementGroup extends Group {
      */
     @Override
     public void change() {
-        System.out.print("客户要求修改一个需求\n");
+        System.out.println("客户要求修改一个需求");
     }
 
     /**
@@ -43,6 +43,6 @@ public class RequirementGroup extends Group {
      */
     @Override
     public void plan() {
-        System.out.print("客户要求需求变更计划\n");
+        System.out.println("客户要求需求变更计划");
     }
 }

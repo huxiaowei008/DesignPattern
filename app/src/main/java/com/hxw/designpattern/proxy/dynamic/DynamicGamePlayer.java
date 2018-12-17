@@ -16,18 +16,18 @@ public class DynamicGamePlayer implements IGamePlayer {
 
     @Override
     public void login(String user, String password) {
-        System.out.print("登录名为" + user + "的用户" + this.name + "登录成功!\n");
+        System.out.println("登录名为" + user + "的用户" + this.name + "登录成功!");
     }
 
     @Override
     public void killBoss() {
-        System.out.print(this.name + "在杀Boss!\n");
+        System.out.println(this.name + "在杀Boss!");
 
     }
 
     @Override
     public void upgrade() {
-        System.out.print(this.name + "升级了!\n");
+        System.out.println(this.name + "升级了!");
     }
 
     @Override

@@ -15,7 +15,7 @@ public class BuilderClient {
                 .setHigh(170)
                 .setWeight(50)
                 .build();
-        System.out.print(hummer.toString());
+        System.out.println(hummer.toString());
 
 
         Computer low = new LowConfigBuilder()
@@ -25,7 +25,7 @@ public class BuilderClient {
                 .setMemory()
                 .setMouse()
                 .createComputer();
-        System.out.print("低配->" + low.toString());
+        System.out.println("低配->" + low.toString());
 
         Computer high = new HighConfigBuider()
                 .setCPU()
@@ -34,6 +34,6 @@ public class BuilderClient {
                 .setMemory()
                 .setMouse()
                 .createComputer();
-        System.out.print("高配->" + high.toString());
+        System.out.println("高配->" + high.toString());
     }
 }
