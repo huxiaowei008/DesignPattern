@@ -22,7 +22,7 @@ public abstract class Corp {
      */
     private int salary;
 
-    public Corp(String name, String position, int salary){
+    public Corp(String name, String position, int salary) {
         this.name = name;
         this.position = position;
         this.salary = salary;
@@ -31,7 +31,7 @@ public abstract class Corp {
     /**
      * @return 员工信息
      */
-    public String getInfo(){
+    public String getInfo() {
         return "姓名->" + name +
                 "\t职位->" + position +
                 "\t薪水->" + salary;
