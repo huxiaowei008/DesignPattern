@@ -12,7 +12,7 @@ import java.util.List;
  * @date 2019/3/19
  */
 public class VisitorClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         for (Employee emp : mockEmployee()) {
             emp.accept(new Visitor());
         }

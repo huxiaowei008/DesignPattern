@@ -9,7 +9,7 @@ package com.hxw.designpattern.facade;
  * @date 2019/3/15
  */
 public class FacadeClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         ModenPostOffice office = new ModenPostOffice();
         String address = "信件地址";
         String context = "信件内容";

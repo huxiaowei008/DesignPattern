@@ -8,7 +8,7 @@ package com.hxw.designpattern.adapter;
  * @date 2019/3/13
  */
 public class AdapterClient {
-    public static void main(String args[]){
+    public static void main(String[] args){
         //没有与外系统连接时
         IUserInfo userInfo=new UserInfo();
         userInfo.getMobileNumber();

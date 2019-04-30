@@ -9,7 +9,7 @@ package com.hxw.designpattern.templatemethod;
  * @author hxw on 2018/7/14.
  */
 public class TemplateClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         HummerH1 h1 = new HummerH1();
         HummerH2 h2 = new HummerH2();
 

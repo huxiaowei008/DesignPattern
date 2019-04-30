@@ -20,7 +20,7 @@ package com.hxw.designpattern.singleton;
  * @author hxw on 2018/7/9.
  */
 public class SignletonClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
     }
 }

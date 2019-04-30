@@ -12,7 +12,7 @@ package com.hxw.designpattern.mediator;
  * @author hxw on 2018/9/11.
  */
 public class MediatorClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         AbstractMediator mediator = new Mediator();
         //采购人员采购电脑
         System.out.println("------采购人员采购电脑------");

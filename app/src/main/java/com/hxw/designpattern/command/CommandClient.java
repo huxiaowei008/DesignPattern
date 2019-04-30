@@ -8,7 +8,7 @@ package com.hxw.designpattern.command;
  * @author hxw on 2018/9/18.
  */
 public class CommandClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 //        //首先客户找到需求组说,过来谈需求并修改
 //        System.out.println("------客户要求增加一项需求------");
 //        Group rg=new RequirementGroup();

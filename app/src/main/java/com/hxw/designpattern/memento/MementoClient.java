@@ -9,7 +9,7 @@ package com.hxw.designpattern.memento;
  * @date 2019/3/18
  */
 public class MementoClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Boy boy = new Boy();
         Caretaker caretaker = new Caretaker();
         //初始化当前状态

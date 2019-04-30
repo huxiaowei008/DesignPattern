@@ -11,7 +11,7 @@ import java.util.Random;
  * @author hxw on 2018/9/20.
  */
 public class ResponsibilityClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         //随机挑选几个女性
         Random random = new Random();

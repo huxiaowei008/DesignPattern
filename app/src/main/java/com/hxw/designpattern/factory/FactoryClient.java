@@ -29,7 +29,7 @@ import com.hxw.designpattern.factory.simplefactory.DrinkFactory;
  * @author hxw on 2018/7/9.
  */
 public class FactoryClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Drink drink = DrinkFactory.create(DrinkFactory.TYPE_J);
         System.out.println(drink.printlnName());
 

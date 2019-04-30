@@ -7,7 +7,7 @@ package com.hxw.designpattern.decorator;
  * @author hxw on 2018/9/21.
  */
 public class DecoratorClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //原装成绩单
         SchoolReport sr = new FouthGradeSchoolReport();
 

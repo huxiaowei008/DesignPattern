@@ -19,7 +19,7 @@ import java.lang.reflect.Proxy;
  * @author hxw on 2018/9/8.
  */
 public class ProxyClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //定义一个游戏的角色
         IGamePlayer player = new GamePlayer("张三丰");
         //定义一个代练者

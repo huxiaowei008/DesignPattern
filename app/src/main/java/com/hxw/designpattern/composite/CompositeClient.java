@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @date 2019/3/14
  */
 public class CompositeClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //首先组装个组织结构
         Branch ceo = compositeCorpTree();
         //打印ceo

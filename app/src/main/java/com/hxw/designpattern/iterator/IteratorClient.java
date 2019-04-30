@@ -8,7 +8,7 @@ package com.hxw.designpattern.iterator;
  * @date 2019/3/14
  */
 public class IteratorClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         IProject project = new Project("", 0, 0);
         project.add("星球大战项目", 10, 1000000);
         project.add("人造太阳项目", 20, 1000000);

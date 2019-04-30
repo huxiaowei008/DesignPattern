@@ -11,7 +11,7 @@ import java.util.Observer;
  * @date 2019/3/15
  */
 public class ObserverClient {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Observer liSi = new LiSi();
 
         HanFeiZi hanFeiZi = new HanFeiZi();

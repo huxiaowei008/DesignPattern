@@ -25,7 +25,7 @@ public class PrototypeClient {
      */
     private static int MAX_COUNT = 6;
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //模拟发送邮件
         int i = 0;
         //把模板定义出来

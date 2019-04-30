@@ -8,7 +8,7 @@ package com.hxw.designpattern.strategy;
  */
 public class StrategyClient {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Kits kits;
         System.out.println("---刚到吴国拆第一个锦囊---");
         kits=new Kits(new BackDoor());
